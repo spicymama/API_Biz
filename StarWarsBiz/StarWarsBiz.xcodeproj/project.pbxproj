@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD40E9D264336410012F31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40E9C264336410012F31A /* AppDelegate.swift */; };
+		EAD40E9F264336410012F31A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40E9E264336410012F31A /* SceneDelegate.swift */; };
+		EAD40EA4264336410012F31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD40EA2264336410012F31A /* Main.storyboard */; };
+		EAD40EA6264336440012F31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD40EA5264336440012F31A /* Assets.xcassets */; };
+		EAD40EA9264336440012F31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD40EA7264336440012F31A /* LaunchScreen.storyboard */; };
+		EAD40EBD264337070012F31A /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40EBC264337070012F31A /* Films.swift */; };
+		EAD40EC126433C450012F31A /* FilmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40EC026433C450012F31A /* FilmsController.swift */; };
+		EAD40EC526433E9E0012F31A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40EC426433E9E0012F31A /* NetworkError.swift */; };
+		EAD40ECA264349390012F31A /* FilmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40EC9264349390012F31A /* FilmListTableViewController.swift */; };
+		EAD40ECD264349E90012F31A /* CharacterListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD40ECC264349E90012F31A /* CharacterListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAD40E99264336410012F31A /* StarWarsBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD40E9C264336410012F31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD40E9E264336410012F31A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAD40EA3264336410012F31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD40EA5264336440012F31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD40EA8264336440012F31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD40EAA264336440012F31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD40EBC264337070012F31A /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		EAD40EC026433C450012F31A /* FilmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsController.swift; sourceTree = "<group>"; };
+		EAD40EC426433E9E0012F31A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EAD40EC9264349390012F31A /* FilmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListTableViewController.swift; sourceTree = "<group>"; };
+		EAD40ECC264349E90012F31A /* CharacterListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD40E96264336410012F31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD40E90264336410012F31A = {
+			isa = PBXGroup;
+			children = (
+				EAD40E9B264336410012F31A /* StarWarsBiz */,
+				EAD40E9A264336410012F31A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD40E9A264336410012F31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40E99264336410012F31A /* StarWarsBiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD40E9B264336410012F31A /* StarWarsBiz */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EBB264336B90012F31A /* Models */,
+				EAD40EB82643369E0012F31A /* Controllers */,
+				EAD40EB5264336820012F31A /* Views */,
+				EAD40EB4264336710012F31A /* Helpers and Extentions */,
+				EAD40EB12643365A0012F31A /* Resources */,
+				EAD40EA7264336440012F31A /* LaunchScreen.storyboard */,
+			);
+			path = StarWarsBiz;
+			sourceTree = "<group>";
+		};
+		EAD40EB12643365A0012F31A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40E9C264336410012F31A /* AppDelegate.swift */,
+				EAD40E9E264336410012F31A /* SceneDelegate.swift */,
+				EAD40EA5264336440012F31A /* Assets.xcassets */,
+				EAD40EAA264336440012F31A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EAD40EB4264336710012F31A /* Helpers and Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EC426433E9E0012F31A /* NetworkError.swift */,
+			);
+			path = "Helpers and Extentions";
+			sourceTree = "<group>";
+		};
+		EAD40EB5264336820012F31A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EB7264336950012F31A /* Custom Views */,
+				EAD40EB62643368A0012F31A /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAD40EB62643368A0012F31A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EA2264336410012F31A /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EAD40EB7264336950012F31A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		EAD40EB82643369E0012F31A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EBA264336AF0012F31A /* Model Controllers */,
+				EAD40EB9264336A50012F31A /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAD40EB9264336A50012F31A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EC9264349390012F31A /* FilmListTableViewController.swift */,
+				EAD40ECC264349E90012F31A /* CharacterListTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EAD40EBA264336AF0012F31A /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EC026433C450012F31A /* FilmsController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		EAD40EBB264336B90012F31A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAD40EBC264337070012F31A /* Films.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD40E98264336410012F31A /* StarWarsBiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD40EAD264336440012F31A /* Build configuration list for PBXNativeTarget "StarWarsBiz" */;
+			buildPhases = (
+				EAD40E95264336410012F31A /* Sources */,
+				EAD40E96264336410012F31A /* Frameworks */,
+				EAD40E97264336410012F31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsBiz;
+			productName = StarWarsBiz;
+			productReference = EAD40E99264336410012F31A /* StarWarsBiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD40E91264336410012F31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EAD40E98264336410012F31A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EAD40E94264336410012F31A /* Build configuration list for PBXProject "StarWarsBiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD40E90264336410012F31A;
+			productRefGroup = EAD40E9A264336410012F31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD40E98264336410012F31A /* StarWarsBiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD40E97264336410012F31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD40EA9264336440012F31A /* LaunchScreen.storyboard in Resources */,
+				EAD40EA6264336440012F31A /* Assets.xcassets in Resources */,
+				EAD40EA4264336410012F31A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD40E95264336410012F31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD40EC126433C450012F31A /* FilmsController.swift in Sources */,
+				EAD40E9D264336410012F31A /* AppDelegate.swift in Sources */,
+				EAD40E9F264336410012F31A /* SceneDelegate.swift in Sources */,
+				EAD40ECD264349E90012F31A /* CharacterListTableViewController.swift in Sources */,
+				EAD40ECA264349390012F31A /* FilmListTableViewController.swift in Sources */,
+				EAD40EBD264337070012F31A /* Films.swift in Sources */,
+				EAD40EC526433E9E0012F31A /* NetworkError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAD40EA2264336410012F31A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD40EA3264336410012F31A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD40EA7264336440012F31A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD40EA8264336440012F31A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD40EAB264336440012F31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAD40EAC264336440012F31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD40EAE264336440012F31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8PT7VLP6;
+				INFOPLIST_FILE = StarWarsBiz/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StarWarsBiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD40EAF264336440012F31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8PT7VLP6;
+				INFOPLIST_FILE = StarWarsBiz/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StarWarsBiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD40E94264336410012F31A /* Build configuration list for PBXProject "StarWarsBiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD40EAB264336440012F31A /* Debug */,
+				EAD40EAC264336440012F31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD40EAD264336440012F31A /* Build configuration list for PBXNativeTarget "StarWarsBiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD40EAE264336440012F31A /* Debug */,
+				EAD40EAF264336440012F31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD40E91264336410012F31A /* Project object */;
+}
